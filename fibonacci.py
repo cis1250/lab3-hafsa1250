@@ -23,4 +23,4 @@ for i in range (number_of_terms):
   print(a, end=" ") #prints the current value of a
   a, b = b, a + b #Update a and b for the next term
   
-# Your code doesn't run, you have an indentation problem -2
+# Your code doesn't run, you have an indentation problem -1
