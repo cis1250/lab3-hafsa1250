@@ -7,7 +7,7 @@
 
 #Validating that the input is a positive integer.
 while True:
-      user_input = input("How many terms do you want?") # Prompt the user for the number of terms.
+      user_input = int(input("How many terms do you want?")) # Prompt the user for the number of terms.
 
   if user_input.isdigit(): #checking if input is a positive integer
        number_of_terms = int(user_input) #Converts the number typed as text into an actual number
